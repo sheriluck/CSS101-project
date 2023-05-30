@@ -1,0 +1,137 @@
+body {
+    background-image: url("images/custard\ filling\ cake.jpg");
+    background-size: 100% ,100vh;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(281, 250, 258);
+    padding: 0px;
+    margin: 0px;
+    /* flex-grow: 2; */
+  }
+  
+
+    
+/* .bgstyle {
+    background-image: url("images/cake\ sickles.jpg");
+    background-size:cover;
+    background-repeat:repeat;
+    position:center;
+this was initialy done by me but gpt told me to do it inthe 
+body rather  doing in bgstyle 
+    margin: 30px auto;
+     height:auto;
+    width: auto; 
+    border-radius: 3px;
+    box-shadow: 1px 1px 12px 1px rgba(0, 0, 255, .2);
+} */ 
+
+header {
+    background-color: rgba(87, 19, 80, 0.8);
+    display: flex;
+    color: rgb(148, 140, 147);
+    padding: 0;
+    align-items: center;
+
+}
+
+.title {
+    flex-grow:1;
+    text-align: left;
+
+}
+
+h1 {
+    margin: 20px;
+}
+
+
+  nav ul {  
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    
+
+}  
+
+ ul li {
+    display: inline;
+    margin-right: 20px;
+    padding: 1px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:  rgb(148, 140, 147);
+    padding: 10px;
+    background-color: rgb(148, 102, 148,0.6); 
+     border-radius: 10px; }
+     
+
+
+
+a:hover{
+    
+    background-color:rgb(164, 138, 164);
+    color: aliceblue;
+}
+
+.logo {
+    margin-left: 80px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.hero {
+    flex-grow: 1;
+    text-align: center;
+    color: rgb(75, 82, 69);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:40px;
+    }
+ .container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 20px;
+    height: 70vh;
+ }
+
+    .learn-more{
+        display:inline-block;
+        background-color: rgb(148, 102, 148,0.6);
+        padding: 12px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(148, 162, 188);
+        box-shadow: 5px 5px 9px  rgb(165, 102, 134);
+        
+    }
+    .learn-more:hover{
+        background-color: rgb(72, 30, 59);
+    }
+    /* .container {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       
+      }
+      
+      .learn-more {
+        display:inline-block;
+        padding: 12px 14px;
+        background-color: rgb(148, 102, 148,0.6);
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 4px;
+      }
+      
+      .learn-more:hover {
+        background-color: #de21ce;
+      } */
+      
+
